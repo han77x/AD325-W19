@@ -1,0 +1,155 @@
+/* My WEB120 Portal Website Styles */
+
+
+
+html {
+    background-color:#ccc;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    
+}
+
+h1 {
+    margin-top:0;
+    text-align: center;
+    color:floralwhite;
+} /*text inside divh1*/
+
+@media screen and (max-width:620px){
+    h1{
+        font-size: 1.6em;
+    }    
+}
+
+h2 {
+    font-size: 1.7em;
+    padding-left: 20px;
+    color:darkblue;
+    
+}
+
+.div1 {
+    overflow:hidden;
+    background-image: url(../images/seattle.jpg);
+    background-position:center;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
+    height: 270px;
+    position:relative;
+    width:70%;
+    margin:0 auto;
+    margin-top: 5%;
+    /*outer header div*/
+}
+
+@media screen and (max-width:436px){
+    .div1{
+        padding-bottom:20px;
+    }    
+}
+@media screen and (max-width:920px){
+    .div1{
+        width:100%
+    }    
+}
+
+
+.divh1 {
+    overflow:hidden;
+    background-color: black;
+    float:bottom;
+    vertical-align: bottom;
+    position: relative;
+    top: 82%;
+    height:auto;
+    opacity:.85;
+    /*inner header div*/
+    
+}
+
+
+div.wrapper {
+    background-color:#fff;
+    width:70%;
+    overflow:auto;
+    margin:0 auto;
+    border:1px solid blue;
+    opacity:1.8;
+    background:rgba(232,239, 252,.7);
+    
+    
+}
+
+@media screen and (max-width:920px){
+    div.wrapper{
+        width:100%
+    }    
+}
+
+img.icon {height:30px;}
+
+p {
+    padding:2px 20px;
+    font-size:1.2em;
+    line-height: 1.2em;
+    
+}
+
+footer {
+    clear:both;
+    text-align: center;
+    margin-top:20px;
+}
+
+a:hover{
+    color:lightgreen;
+}
+
+
+small {
+    color:aliceblue;
+}
+/* DESKTOP */
+@media all and (min-width:1280px){
+    
+    /* LEFT COL */
+    section {
+        float:left;
+        width:100%;
+    }
+    
+}
+
+/* TABLET */
+@media all and (min-width:481px) and (max-width:1279px){
+    
+    /* LEFT COL */
+    section {
+        float:left;
+        width:58%;
+    }
+    
+}
+
+
+/* PHONE */
+@media all and (max-width:480px){
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
