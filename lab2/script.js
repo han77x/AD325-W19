@@ -1,10 +1,14 @@
 function addTwoNumbers() {
-   	var a = Number(prompt("Enter first number for Sum1"));
-    var b = Number(prompt("Enter second number for Sum1"));
-alert("Sum 1 = " + (a + b));
-    var x = Number(prompt("Enter first number for Sum2"));
-    var y = Number(prompt("Enter first number for Sum2"));
-alert("Sum 2 = " + (x + y));
+   	var a = 19;
+    var b = 12;
+    var result = a + b;
+    alert("sum of 19+12 = " + result);
+    
+    var c = 88;
+    var d = 44;
+    var result2 = c + d;
+    alert("sum of 88+44 = " + result2);
+
 alert("Yay! You can now enter!")
 	
 }
